@@ -22,7 +22,7 @@ The data architecture for this project follows **Medallion Architecture** Bronze
 <img width="1075" height="625" alt="High Level Architecture" src="https://github.com/user-attachments/assets/a28b64e6-0ea2-48f5-8daa-12a7855104b1" />
 
 
-** Medallion Architecture Layers **
+**Medallion Architecture Layers**
 - 🥉 **Bronze Layer** (Raw Ingestion) :
 Preserves source data in its original state, ingesting raw datasets from CSV files directly into PostgreSQL database tables with complete fidelity and auditability.
 - 🥈 **Silver Layer** (Transformation & Quality) :
